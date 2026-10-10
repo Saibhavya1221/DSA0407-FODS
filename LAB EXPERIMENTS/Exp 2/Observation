@@ -1,0 +1,28 @@
+AIM
+To calculate the average price of all products sold during the past month using NumPy arrays.
+
+ALGORITHM
+1. Import the NumPy library.
+2. Create a NumPy array containing sales data for three products.
+3. Calculate the average of all sales values using `np.mean()`.
+4. Store the average in the variable `avg_price`.
+5. Display the average price.
+6. Stop the program.
+
+PSEUDOCODE
+START
+IMPORT NumPy as np
+CREATE sales array
+CALCULATE average using np.mean(sales)
+STORE the average in avg_price
+DISPLAY avg_price
+STOP
+
+RESULT / OBSERVATION
+The average price of all the products was calculated successfully using NumPy.
+
+Output:
+
+Average price: 223.55555555555554
+
+The average price of all nine values in the sales array is approximately **223.56**.
