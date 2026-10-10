@@ -1,0 +1,33 @@
+AIM
+To calculate the average marks of each subject using NumPy arrays and identify the subject with the highest average marks.
+
+ALGORITHM
+1. Import the NumPy library.
+2. Create a NumPy array containing the marks of four students in four subjects.
+3. Calculate the average marks of each subject using `np.mean()` with `axis=0`.
+4. Display the average marks of all subjects.
+5. Store the subject names in a list.
+6. Find the index of the highest average using `np.argmax()`.
+7. Display the subject name with the highest average marks.
+
+PSEUDOCODE
+START
+IMPORT NumPy as np
+CREATE student_scores array
+CALCULATE average marks using np.mean(student_scores, axis=0)
+DISPLAY average marks
+STORE subject names in a list
+FIND index of highest average using np.argmax(avg)
+DISPLAY the subject name
+STOP
+
+RESULT / OBSERVATION
+The average marks of the four subjects were calculated successfully using NumPy.
+Average marks:
+
+* Math: 81.25
+* Science: 82.5
+* English: 82.5
+* History: 77.5
+
+Science and English have the highest average marks of 82.5. Since `np.argmax()` returns the index of the first maximum value, the program displays Science as the highest-average subject.
